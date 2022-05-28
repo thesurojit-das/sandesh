@@ -1,0 +1,200 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0% 10% 0 10%;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.navbar {
+    margin: 0% 10% 0 10%;
+}
+
+.navbar-nav {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.home {
+    display: flex;
+    margin-top: 25vh;
+    height: 70vh;
+}
+
+.homepic {
+    margin-top: 20%;
+}
+
+img {
+    width: auto;
+    height: 50vh;
+}
+
+.title {
+    height: auto;
+}
+
+.reachout {
+    padding: 10%;
+    width: 50%;
+    height: auto;
+}
+
+li {
+    display: inline-block;
+}
+
+#pic {
+    margin-top: 0;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 50%;
+}
+
+.mail {
+    margin: 0 1vw 0 1vw;
+}
+
+#carouselExampleControls {
+    margin-top: 20vh;
+    margin-bottom: 25vh;
+}
+
+
+.card-group {
+    margin: 15vh 0 15vh 0;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0% 0% 0 0%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .home {
+        margin-top: 12%;
+        padding: 0;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .reachout {
+        width: 100%;
+        height: 25vh;
+    }
+
+    #icon {
+        padding-left: 14%;
+    }
+
+    #pic {
+        width: 40vw;
+        height: 25vh;
+        border-radius: 50%;
+    }
+
+    #carouselExampleControls {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width:768px) {
+    body {
+        margin: 0% 0% 0 0%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .home {
+        display: flex;
+        margin-top: 15vh;
+        height: 50vh;
+    }
+
+    #pic {
+        width: 45vw;
+        height: 35vh;
+        border-radius: 50%;
+    }
+
+    .reachout {
+
+        width: 100%;
+        height: 5vh;
+    }
+
+    #carouselExampleControls {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    body {
+        margin: 0% 10% 0 10%;
+
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .home {
+        display: flex;
+        margin-top: 25vh;
+        height: 50vh;
+    }
+
+    #pic {
+        width: 40vw;
+        height: 50vh;
+        border-radius: 50%;
+    }
+
+    .reachout {
+        width: 100%;
+        height: 50vh;
+        font-size: 1.2rem;
+
+    }
+
+    .navbar {
+        margin: 0% 10% 0 10%;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width:1200px) {
+    body {
+        margin: 0% 10% 0 10%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #pic {
+        width: 50vw;
+        height: 45vh;
+        border-radius: 50%;
+    }
+
+    .navbar {
+        margin: 0% 10% 0 10%;
+    }
+}
